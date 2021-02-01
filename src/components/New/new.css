@@ -1,0 +1,78 @@
+header#new {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    align-items: flex-start;
+    margin: 30px auto 10px;
+}
+
+header#new a {
+    background-color: #272727;
+    color: #fff;
+    padding: 8px 18px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+form#newPost {
+    background-color: #fff;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+form#newPost span {
+    text-align: center;
+    color: #ff0000;
+    font-size: 15px;
+}
+
+form#newPost label {
+    margin-bottom: 15px;
+}
+
+form#newPost img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+form#newPost progress {
+    margin-bottom: 15px;
+}
+
+form#newPost input {
+    margin-bottom: 10px;
+}
+
+form#newPost input[type=text] {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+form#newPost textarea {
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px 20px 0px;
+}
+
+form#newPost button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #272727;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
